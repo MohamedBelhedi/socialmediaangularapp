@@ -3,7 +3,7 @@
       <a class="navbar-brand" href="#">Social Media App</a>
     
     
-        <ul class="navbar-nav" *ngIf="loggedIn">
+        <ul class="navbar-nav" *ngIf="currentUser$ | async">
           <li class="nav-item">
             <a class="nav-link active" href="#">Freunde</a>
           </li>
@@ -18,7 +18,7 @@
           </li>
         </ul>
 
-        <div class="dropdown" *ngIf="loggedIn">
+        <div class="dropdown" *ngIf="currentUser$ | async">
             <a class="dropdown-toggle text-dark">Willkommen</a>
             <div class="dropdown-menu">
                 <a  class="dropdown-item">Profilbearbeiten</a>
@@ -26,7 +26,7 @@
             </div>
         </div>
 
-        <form *ngIf="!loggedIn" #loginForm="ngForm" class="d-flex" (ngSubmit)="login()" autocomplete="off">
+        <form *ngIf="!(currentUser$ | async)" #loginForm="ngForm" class="d-flex" (ngSubmit)="login()" autocomplete="off">
           <input 
           name="username"
           [(ngModel)]="model.username" 

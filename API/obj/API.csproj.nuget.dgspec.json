@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mbelh\\OneDrive\\Desktop\\projects\\angularprojects\\DatingApp\\api\\API.csproj": {}
+    "C:\\Users\\mbelh\\OneDrive\\Desktop\\projects\\angularprojects\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mbelh\\OneDrive\\Desktop\\projects\\angularprojects\\DatingApp\\api\\API.csproj": {
+    "C:\\Users\\mbelh\\OneDrive\\Desktop\\projects\\angularprojects\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mbelh\\OneDrive\\Desktop\\projects\\angularprojects\\DatingApp\\api\\API.csproj",
+        "projectUniqueName": "C:\\Users\\mbelh\\OneDrive\\Desktop\\projects\\angularprojects\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\mbelh\\OneDrive\\Desktop\\projects\\angularprojects\\DatingApp\\api\\API.csproj",
+        "projectPath": "C:\\Users\\mbelh\\OneDrive\\Desktop\\projects\\angularprojects\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\mbelh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mbelh\\OneDrive\\Desktop\\projects\\angularprojects\\DatingApp\\api\\obj\\",
+        "outputPath": "C:\\Users\\mbelh\\OneDrive\\Desktop\\projects\\angularprojects\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mbelh\\AppData\\Roaming\\NuGet\\NuGet.Config"
